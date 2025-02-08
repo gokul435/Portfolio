@@ -1,0 +1,128 @@
+.gradient-background{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  h2{
+    color:#5ec0f5 ;
+  }
+
+  li{
+    margin: 10px 0px 20px 0px;
+  }
+  ul{
+    list-style-type: none;
+  }
+
+  h1{
+    font-size: 55px;
+    color: royalblue;
+    text-align: center;
+  }
+  .top-container> h1{
+    font-family: "Lucida Handwriting", cursive;
+  }
+
+  .top-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0f1fb;
+    flex-wrap: wrap;
+  }
+
+  .about-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .about{
+    text-align: center;
+  }
+  .about-container > p{
+    margin: 50px 300px 0px 300px;
+  }
+
+  .about-container > img{
+    border-radius: 50%;
+  }
+
+  .education{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 0%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .education > h1{
+    margin-bottom: 0%;
+  }
+
+  .experience{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .experience > h1{
+    margin-bottom: 0%;
+  }
+
+  .experience > li{
+    margin: 0px 200px 0px 200px;
+  }
+
+  .my-skills>ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    gap: 80px;
+  }
+
+  .my-skills >ul > li{
+    font-size: 25px;
+  }
+
+  .contact-me{
+    background-color: #e0f1fb;
+  }
+
+  .contact-me > .contact{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+  }
+
+  button{
+    background-color: #5ec0f5;
+    height: 30px;
+    width: 120px;
+    border-radius: 30cap;
+  }
