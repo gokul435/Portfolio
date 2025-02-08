@@ -97,12 +97,18 @@
     margin: 0px 200px 0px 200px;
   }
 
+  .skillsclass{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
   .my-skills>ul{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 200px 200px 200px 200px;
     grid-template-rows: auto;
-    justify-content: center;
-    gap: 80px;
+    justify-content:center;
+    gap: 30px;
   }
 
   .my-skills >ul > li{
